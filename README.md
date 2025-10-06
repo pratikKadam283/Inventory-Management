@@ -73,14 +73,14 @@ http://localhost:8080/products
 7️⃣ Available Endpoints
 | Method | Endpoint                      | Description                             |
 | ------ | ----------------------------- | --------------------------------------- |
-| GET    | `/api/products`               | List all products                       |
-| GET    | `/api/products/{id}`          | Get product by ID                       |
-| POST   | `/api/products`               | Create a new product                    |
-| PUT    | `/api/products/{id}`          | Update a product                        |
-| DELETE | `/api/products/{id}`          | Delete a product                        |
-| POST   | `/api/products/{id}/increase` | Increase stock                          |
-| POST   | `/api/products/{id}/decrease` | Decrease stock                          |
-| GET    | `/api/products/low-stock`     | List products below low-stock threshold |
+| GET    | `/products`                   | List all products                       |
+| GET    | `/products/{id}`              | Get product by ID                       |
+| POST   | `/products`                   | Create a new product                    |
+| PUT    | `/products/{id}`              | Update a product                        |
+| DELETE | `/products/{id}`              | Delete a product                        |
+| POST   | `/products/{id}/increase`     | Increase stock                          |
+| POST   | `/products/{id}/decrease`     | Decrease stock                          |
+| GET    | `/products/low-stock`         | List products below low-stock threshold |
 
 8️⃣ Running Tests
 Run all unit tests using Maven:

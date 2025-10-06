@@ -42,6 +42,7 @@ This API is designed with **MVC architecture**, clean code principles, and begin
 ### 2️⃣ Clone the Repository
 
 git clone https://github.com/pratikKadam283/Inventory-Management.git
+
 cd inventory-management
 
    

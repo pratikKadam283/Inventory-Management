@@ -94,7 +94,7 @@ Validation to prevent negative stock
 
 💡 Assumptions & Design Choices
 - Stock cannot go below zero — enforced in service layer and returns 400 Bad Request if violated.
-- Each product has its own lowStockThreshold; default is 10 if not specified.
+- Each product has its own lowStockThreshold; default is 5 if not specified.
 - MVC architecture is used: Controller → Service → Repository → Model.
 - Lombok is used for getters/setters to keep code clean and readable.
 - The API is beginner-friendly, with explicit validations, clear error messages, and simple structure for learning purposes.
